@@ -1,5 +1,5 @@
 import * as React from 'react';
-import '../helpers/mockLogin';
+import '../helpers/mock';
 
 /* use the following to access elements of lock screen:
  *      window.lightdm      -- our interface of lightdm
