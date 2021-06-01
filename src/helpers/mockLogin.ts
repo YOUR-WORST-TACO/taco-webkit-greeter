@@ -910,7 +910,9 @@ if (typeof window.lightdm === 'undefined') {
     new ConfigFile();
     new GreeterUtil();
     new LightDMGreeter();
+
+    window.lightdm._hostname = "testing";
 }
 
 export {};
-//lightdm._hostname = "testing";
+
